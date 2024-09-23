@@ -1,5 +1,5 @@
 export function Footer() {
     return (
-        <footer>&copy; by Rasa</footer>
+        <footer>&copy;  2024 by Rasa</footer>
     );
 }
