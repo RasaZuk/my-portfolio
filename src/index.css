@@ -1,0 +1,38 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    margin: 3rem 5rem 2rem 5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 2rem;
+
+}
+a {
+    color: navy;
+    font-size: 1.7rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+footer {
+    margin: 1rem;
+}
