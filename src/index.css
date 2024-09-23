@@ -47,15 +47,16 @@ a {
     padding: 3rem 4rem;
 }
 
-.contacts {
+.contacts p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     padding: 3rem 4rem;
     font-size: 2rem;
 }
 
-.contacts p {
-    padding: 5rem 14rem 3rem 14rem;
-    text-align: center;
-}
+
 
 .connection {
     display: flex;
@@ -69,4 +70,5 @@ a {
 
 footer {
     margin: 1rem;
+    padding-bottom: 1rem;
 }

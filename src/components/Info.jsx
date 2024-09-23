@@ -1,3 +1,4 @@
+
 export function Info() {
     return (
         <>
@@ -16,13 +17,17 @@ export function Info() {
 
         <div className="contacts">
             <h1>Contacts</h1>
-            <p>If you are interested in my services or willing to contact me, please press the link or send me an email: </p>
-            <div className="connection">
-                <img src="#" alt="LinkedIn" />
-                <a href="#">LinkedIn</a>
-                <img src="#" alt="Letter" />
-                <p>rasa.zukauskaite@gmail.com</p>
-            </div>
+            <p>Please contact me via:</p> 
+                <div className="connection">
+                    <p>LinkedIn</p>
+                    <p>http://www.linkedin.com/in/rasa-zukauskaite-15ba90a1</p>
+                </div>
+                <div className="connection">
+                    <p>rasa.zukauskaite@gmail.com</p>
+                </div>
+                <div className="connection">
+                    <p>or visit my Github page</p> 
+                </div>
 
         </div>        
         </>
