@@ -45,45 +45,84 @@ nav > a {
 
 .creations {
     font-size: 2rem;
-    height: 40rem;
+    
+    
+   
 }
 
 .projects {
-    border: 5px solid #333;
-    border-radius: 10px;
-    color: grey;
-    height: 12rem;
-    width: 12rem;
+    
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 3rem;
+
     
 }
 
 .projects > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
+    border: 5px solid #333;
+    border-radius: 10px;
+    color: grey;
+    text-align: center;
+    font-size: 1.7rem;
     text-decoration: none;
+    padding: 10px;
     
+  
 }
+
 
 .contacts {
     font-size: 2rem;
 }
 
 
-
 .connection {
     display: flex;
-    flex-direction: row;
+    align-content: center;
     justify-content: center;
-    align-items: center;
+    gap: 3rem;
     
 }
 
+.connection div {
+    display: flex;
+    flex-direction: column;
+}
 
+.connection a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    width: 15rem;
+    height: 5rem;
+    background-color: #0077B5;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+}
+.github a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    
+
+}
 
 footer {
     padding-bottom: 1rem;

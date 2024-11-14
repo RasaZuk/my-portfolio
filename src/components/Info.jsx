@@ -1,4 +1,5 @@
 
+
 export function Info() {
     return (
         <>
@@ -12,6 +13,7 @@ export function Info() {
             <h1>I developed my skills in:</h1>
                 <li>Bootstrap</li>
                 <li>Figma</li>
+                <li>React</li>
         </div>
 
         <div className="creations">
@@ -25,22 +27,30 @@ export function Info() {
                 <a href="#">Project6</a>
                 <a href="#">Project7</a>
                 <a href="#">Project8</a>
+                
             </div>
         </div>
 
         <div className="contacts">
             <h1>Contacts</h1>
             <p>Please contact me via:</p> 
+            
+            <div>
                 <div className="connection">
-                    <p>LinkedIn</p>
-                    <p>http://www.linkedin.com/in/rasa-zukauskaite-15ba90a1</p>
+                    <a href="http://www.linkedin.com/in/rasa-zukauskaite-15ba90a1">LinkedIn</a>
                 </div>
                 <div className="connection">
                     <p>rasa.zukauskaite@gmail.com</p>
                 </div>
-                <div className="connection">
-                    <p>or visit my Github page</p> 
+                <div className="github">
+                    <p>or visit my <a href="https://github.com/RasaZuk">Github page</a></p>
+                    
+                    
+                   
+                    
                 </div>
+                
+            </div>
 
         </div>        
         </>
