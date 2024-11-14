@@ -7,12 +7,25 @@ export function Info() {
             <p>Welcome to my portfolio.</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam officia beatae atque quis, nobis perspiciatis a dicta in, eum, exercitationem commodi animi? Obcaecati commodi enim temporibus cum ullam omnis quos.</p> 
         </div>
+
+        <div className="skills">
+            <h1>I developed my skills in:</h1>
+                <li>Bootstrap</li>
+                <li>Figma</li>
+        </div>
+
         <div className="creations">
             <h1>Creations</h1>
-            <a href="#">Project1</a>
-            <a href="#">Project2</a>
-            <a href="#">Project3</a>
-            <a href="#">Project4</a>
+            <div className="projects"> 
+                <a href="https://rasazuk.github.io/Quote-generator">Quote generator</a>
+                <a href="https://rasazuk.github.io/capitals-quiz-en">Quiz of capitals</a>
+                <a href="#">Project3</a>
+                <a href="#">Project4</a>
+                <a href="#">Project5</a>
+                <a href="#">Project6</a>
+                <a href="#">Project7</a>
+                <a href="#">Project8</a>
+            </div>
         </div>
 
         <div className="contacts">
